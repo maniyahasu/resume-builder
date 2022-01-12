@@ -1,16 +1,16 @@
 export const intro = {
-  name: 'Jane Doe',
+  name: 'Hasmukh Maniya',
   label: 'Frontend Developer',
-  image: 'https://www.linkpicture.com/q/generated_photos_5e68893b6d3b380006f22f8b.jpg',
-  email: 'janedoe@email.com',
-  phone: '+91 9876543210',
+  image: 'https://avatars.githubusercontent.com/u/46070193?v=4',
+  email: 'hasumaniya@gmail.com',
+  phone: '+91 8408827872, +91 7990514570',
   url: 'www.github.com/sadanandpai/',
-  summary: `I am a web developer having expertise in frontend development and exposure to back- end development. I design and develop web applications using the latest technologies to deliver the product with quality code.`,
-  location: 'Bengaluru',
-  relExp: '4 years',
+  summary: `Innovative and deadline-driven Front end developer with 6+ years of experience of developing user-centered web application from initial concept to final, polished deliverable.`,
+  location: 'Pune',
+  relExp: '6 Years',
   totalExp: '6 Years',
   objective:
-    'Eager to expand my skill set through external trainings to help boost all major front desk KPIs. Hoping to leverage organizational skills to help ABC Corp introduce time-saving schemes for all executives.',
+    'To pursue a challenging career and be a part of a progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization.',
   profiles: [
     {
       network: 'linkedin',
@@ -18,119 +18,120 @@ export const intro = {
       url: 'https://www.linkedin.com/in/sadanandpai/',
     },
     {
-      network: 'github',
-      username: 'sadanandpai',
-      url: 'https://github.com/sadanandpai/',
+      network: '',
+      username: '',
+      url: '',
     },
     {
-      network: 'hackerrank',
-      username: 'paicube',
-      url: 'https://www.hackerrank.com/paicube/',
+      network: '',
+      username: '',
+      url: '',
     },
     {
-      network: 'leetcode',
-      username: 'paicube',
-      url: 'https://leetcode.com/paicube/',
+      network: '',
+      username: '',
+      url: '',
     },
   ],
 };
 
 export const skills = {
   languages: [
-    { name: 'JavaScript', rating: 5 },
     { name: 'HTML5', rating: 5 },
-    { name: 'CSS', rating: 5 },
+    { name: 'CSS3', rating: 5 },
+    { name: 'Bootstrap 4/5', rating: 5 },
+    { name: 'SASS', rating: 5 },
+    { name: 'JavaScript', rating: 4 },
   ],
   frameworks: [
     { name: 'React', rating: 4 },
     { name: 'Angular', rating: 4 },
   ],
   technologies: [
-    { name: 'Algorithms', rating: 3 },
-    { name: 'Progressive Web Apps', rating: 3 },
-    { name: 'SQL', rating: 3 },
-    { name: 'Data Structures', rating: 3 },
+    { name: 'Angular', rating: 4 },
+    { name: 'React', rating: 4 },
+    { name: 'Web development', rating: 4 },
   ],
   libraries: [
-    { name: 'jQuery', rating: 3 },
-    { name: 'Redux', rating: 3 },
+    { name: 'jQuery', rating: 4 },
+    { name: 'Angular Material', rating: 3 },
+    { name: 'Bootstrap Widgets', rating: 3 },
+    { name: 'D3', rating: 3 },
+    { name: 'Apache Echarts', rating: 3 },
+    { name: 'Storybook', rating: 3 },
   ],
   databases: [{ name: 'Firebase', rating: 3 }],
   practices: [
-    { name: 'Component based architecture', rating: 3 },
     { name: 'Agile methodology', rating: 3 },
-    { name: 'Design Patterns', rating: 3 },
+    { name: 'Component based architecture', rating: 3 },
+    // { name: 'Design Patterns', rating: 3 },
     { name: 'Test Driven Development', rating: 3 },
-    { name: 'MVC', rating: 3 },
   ],
   tools: [
     { name: 'Git', rating: 3 },
     { name: 'VS Code', rating: 3 },
     { name: 'Jira', rating: 3 },
     { name: 'Webpack', rating: 3 },
-    { name: 'Eclipse', rating: 3 },
-    { name: 'Bitbucket', rating: 3 },
   ],
 };
 
 export const work = [
   {
-    name: 'Company 1',
-    role: 'Senior Software Developer',
-    from: 'Apr 2021',
+    name: 'Larsen & Toubro Infotech Limited',
+    role: 'Senior Product Engineer',
+    from: 'Feb 2021',
     to: 'present',
-    years: '2.5 years',
-    description:
-      '* Use my extensive experience with front end development to define the structure and components for the project, making sure they are reusable\n* Keep the code quality high reviewing code from other developers and suggesting improvements\n* Interact with the designer to suggest changes and to make sure the view he has about the design is translated into actual functionality\n* E-commerce maintenance **with Fastcommerce**, a Brazilian e-commerce platform',
-  },
-  {
-    name: 'Company 2',
-    role: 'Software Developer',
-    from: 'Jun 2015',
-    to: 'Dec 2017',
-    years: '2.5 years',
-    description:
-      "* Develop web applications based on Sharepoint, Drupal 8 and Episerver\n* Lead a team of 10 front end developers, giving support to the client's multi-cultural team, providing feedback, clarifying requirements and helping with technical questions\n* Keep the Project Manager and the IT Leads updated on the overall progress of the projects and manage the tasks distributed to the team\n* Keep the code and the features implemented by the other developers in accordance to the requirements",
-  },
-  {
-    name: 'Company 3',
-    role: 'Trainee Developer',
-    from: 'Aug 2011',
-    to: 'May 2015',
     years: '1 year',
-    description:
-      '* Design easy user interfaces and great user experiences for the digital platforms of small companies\n* Wordpress development, including themes creation or customization, custom plugins development and training\n* E-commerce maintenance with Fastcommerce, a Brazilian e-commerce platform\n* E-commerce development with Magento, customizing preexisting themes \n* Integrate external services such as payment services, delivery, etc into Magento solutions\n* VPS configuration and optimization (Apache & Nginx)',
+    description: `* Created required components and developed user interface as per requirements.\n * Developed modules & components for real time application.\n * Created responsive & reusable HTML and Angular components with unit testing and more than 80% code coverage.\n * Actively involved in code review process.\n \t* **Project:** Mosaic AIOps \n \t * **Description:** LTI’s Mosaic AIOps enables Enterprise IT transformation through adoption of AI-led IT Operations. This means enhanced asset monitoring, automated situation detection & remediation, smarter service desk activities by inculcating collaborative support practices in the operations teams.\n \t *  **Technologies used:** Angular 11, Html5, Bootstrap 4, CSS3, SASS, Font Awesome, Bootstrap widgets, D3, Apache ECharts.`,
+  },
+  {
+    name: 'Synerzip Softech Ind Pvt Ltd',
+    role: 'Senior Software Engineer',
+    from: 'March 2019 ',
+    to: 'Feb 2021',
+    years: '2 years',
+    description: `* Analysis and understand client requirements.\n * Testing of developed user story on the server.\n * Demonstration of the developed user story to the client and team.\n * Created required components and developed user interface as per requirements.\n \t * **Project:** Turn Rx Inventory Management **(TurnRx)** \n \t* **Description:** Turn Rx, an automated inventory management solution driven by predictive analytics, is fully integrated with EPS and provides an intuitive web interface that allows you to manage and track inventory at a pharmacy or corporate level \n \t* **Technologies used:** Angular 9/10, Html5, Bootstrap 3/4, CSS3, SASS, Font Awesome, Bootstrap widgets, jQWidgets.`,
+  },
+  {
+    name: 'First insight software solution',
+    role: 'Software Engineer',
+    from: 'Oct 2015',
+    to: 'March 2019',
+    years: '3.5 years',
+    description: `* Requirement gathering, Design, Development, Implementation, and unit testing.\n* Developed a Responsive UI for different devices such as Mobile, Desktop, Tablet \n * Developed mobile first responsive website and web application using Bootstrap 3/4, jQuery and Angular 2/4.\n \t* **Project:** EHRWeb – MaximEyes.com (MaximEyes Web Based Application). \n \t* **Description:** MaximEyes EHR is a Product used by Doctors in the USA for flexibility to tailor the system needs or get started right away with pre-built exam templates \n \t* **Technologies used:** HTML, CSS3, Bootstrap 3, jQuery and Angular 2/4.`,
   },
 ];
 
 export const education = [
   {
-    institution: 'MIT, University',
-    url: 'https://www.mit.edu/',
-    studyType: 'MS',
-    area: 'Cloud technology',
-    startDate: '2014',
+    institution: 'Pune university',
+    url: '',
+    studyType: 'MCA',
+    area: 'Computer Application',
+    startDate: '2013',
     endDate: '2016',
-    score: '68%',
+    score: '75%',
     courses: [],
   },
   {
-    institution: 'NMAMIT, Nitte',
-    url: 'https://www.mit.edu/',
-    studyType: 'B.Tech (VTU)',
-    area: 'Computer Science',
+    institution: 'Bhavnagar university',
+    url: '',
+    studyType: 'BCA',
+    area: 'Computer Application',
     startDate: '2010',
-    endDate: '2014',
-    score: '8.3 CGPA',
+    endDate: '2013',
+    score: '69%',
     courses: [],
   },
 ];
 
 export const activities = {
-  involvements:
-    '* Prevented millions of dollars in state sales tax undercharges by initiating tests that revealed a bug in a new release of shopping cart software.\n * Isolated previously undiscovered flaw in price checking tool resulting in more competitive pricing and a 20 percent increase in revenue.\n * Implemented automated testing tools spawning more diligent levels of regression testing, negative testing, error/bug retests and usability.\n * Prevented millions of dollars in state sales tax undercharges by initiating tests that revealed a bug in a new release of shopping cart software.\n',
-  achievements:
-    "* React and redux - A complete guide 2020 from Udemy'\n * Agile and Scrum Master Certificate from Udacity\n  * Best performer award for consistently exceeding the performance\n  * Certificate of exceptional bug finder by XYZ client\n  * Recognition zero defect delivery\n  * Best performer award for consistently exceeding the performance",
+  involvements: `1. NOVA Theme & Angular component library
+    * **Technologies:** Angular 10, HTML5, Bootstrap 4,  CSS3, SASS, Storybook, Font Awesome
+    * **Features:** Reusabled component and theme, responsive, customizable.\n`,
+  achievements: `* Completed certification of Angular - The Complete Guide (2022 Edition) - udemy
+    * Completed certification of React - The Complete Guide (incl Hooks, React Router, Redux) - udemy
+    * Got **Mountain Movers** award for to contribute beyond the expectation in the product by L&T Infortech in **July 2021**.`,
 };
 
 export const volunteer = [];
